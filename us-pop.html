@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>US Pop 소개</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#3B82F6',
+                        secondary: '#10B981',
+                        accent: '#8B5CF6',
+                    },
+                    keyframes: {
+                        fadeIn: {
+                            '0%': { opacity: '0', transform: 'translateY(20px)' },
+                            '100%': { opacity: '1', transform: 'translateY(0)' }
+                        }
+                    },
+                    animation: {
+                        'fade-in': 'fadeIn 0.8s ease-out forwards'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gradient-to-br from-blue-100 via-indigo-100 to-purple-100 min-h-screen">
+    <header class="sticky top-0 z-50 backdrop-blur-lg bg-white/30 border-b border-white/20">
+        <nav class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <a href="index.html" class="text-2xl font-bold text-primary">Global Pop Culture</a>
+                <div class="hidden md:flex space-x-6">
+                    <a href="index.html" class="text-gray-700 hover:text-primary transition-colors duration-300 flex items-center">
+                        <img src="https://flagcdn.com/w20/kr.png" alt="K-pop" class="w-6 h-6 mr-2">
+                        K-Pop
+                    </a>
+                    <a href="us-pop.html" class="text-primary flex items-center">
+                        <img src="https://flagcdn.com/w20/us.png" alt="US Pop" class="w-6 h-6 mr-2">
+                        US Pop
+                    </a>
+                    <a href="uk-pop.html" class="text-gray-700 hover:text-primary transition-colors duration-300 flex items-center">
+                        <img src="https://flagcdn.com/w20/gb.png" alt="UK Pop" class="w-6 h-6 mr-2">
+                        UK Pop
+                    </a>
+                    <a href="j-pop.html" class="text-gray-700 hover:text-primary transition-colors duration-300 flex items-center">
+                        <img src="https://flagcdn.com/w20/jp.png" alt="J-Pop" class="w-6 h-6 mr-2">
+                        J-Pop
+                    </a>
+                    <a href="latin-pop.html" class="text-gray-700 hover:text-primary transition-colors duration-300 flex items-center">
+                        <img src="https://flagcdn.com/w20/es.png" alt="Latin Pop" class="w-6 h-6 mr-2">
+                        Latin Pop
+                    </a>
+                </div>
+                <button class="md:hidden text-gray-700 hover:text-primary">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <div class="backdrop-blur-lg bg-white/30 rounded-3xl shadow-2xl p-8 border border-white/20">
+            <div class="flex justify-center items-center mb-8 animate-fade-in [animation-delay:0.2s]">
+                <img src="https://flagcdn.com/w320/us.png" 
+                     alt="미국 국기" 
+                     class="w-24 h-24 object-contain animate-pulse">
+            </div>
+            <h1 class="text-4xl font-bold text-center text-gray-800 mb-8 animate-fade-in [animation-delay:0.4s]">
+                US Pop의 세계에 오신 것을 환영합니다! 🎵
+            </h1>
+            
+            <section class="mb-12 backdrop-blur-sm bg-white/20 p-6 rounded-2xl border border-white/20 animate-fade-in [animation-delay:0.6s]">
+                <h2 class="text-2xl font-semibold text-gray-800 mb-4 border-b-2 border-gray-300 pb-2">
+                    US Pop이란?
+                </h2>
+                <p class="text-gray-700 leading-relaxed mb-4">
+                    US Pop은 미국의 대중음악을 의미하며, 전 세계적으로 가장 큰 영향력을 가진 음악 장르입니다. 
+                    다양한 음악 스타일과 문화적 요소가 융합되어 있으며, 
+                    <span class="bg-white/40 text-gray-800 font-medium px-3 py-1 rounded-full backdrop-blur-sm">
+                        혁신적인 사운드와 트렌드
+                    </span>
+                    로 유명합니다.
+                </p>
+            </section>
+
+            <section class="mb-12 animate-fade-in [animation-delay:0.8s]">
+                <h2 class="text-2xl font-semibold text-gray-800 mb-6 border-b-2 border-gray-300 pb-2">
+                    대표적인 US Pop 아티스트
+                </h2>
+                <div class="grid gap-6 md:grid-cols-3">
+                    <div class="backdrop-blur-sm bg-white/30 p-6 rounded-2xl border border-white/20 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 animate-fade-in [animation-delay:1s]">
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Taylor Swift</h3>
+                        <p class="text-gray-700">컨트리에서 팝까지 다양한 장르를 넘나드는 가수이자 작곡가. 2006년 데뷔 이후 전 세계적으로 큰 인기를 얻고 있습니다.</p>
+                    </div>
+                    <div class="backdrop-blur-sm bg-white/30 p-6 rounded-2xl border border-white/20 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 animate-fade-in [animation-delay:1.2s]">
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Beyoncé</h3>
+                        <p class="text-gray-700">R&B, 팝, 힙합 등 다양한 장르를 아우르는 퍼포먼스 아티스트. 1990년대 Destiny's Child로 데뷔하여 현재까지 활발한 활동을 이어가고 있습니다.</p>
+                    </div>
+                    <div class="backdrop-blur-sm bg-white/30 p-6 rounded-2xl border border-white/20 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 animate-fade-in [animation-delay:1.4s]">
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Bruno Mars</h3>
+                        <p class="text-gray-700">팝, R&B, 펑크 등 다양한 장르를 융합하는 가수. 2010년 데뷔 이후 전 세계적으로 큰 인기를 얻고 있습니다.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="mb-12 animate-fade-in [animation-delay:1.6s]">
+                <h2 class="text-2xl font-semibold text-gray-800 mb-6 border-b-2 border-gray-300 pb-2">
+                    US Pop의 특징
+                </h2>
+                <ul class="grid gap-4">
+                    <li class="backdrop-blur-sm bg-white/30 p-4 rounded-2xl border border-white/20 shadow-md hover:shadow-lg transition-shadow duration-300 flex items-center animate-fade-in [animation-delay:1.8s]">
+                        <span class="w-3 h-3 bg-primary rounded-full mr-3"></span>
+                        다양한 장르의 융합
+                    </li>
+                    <li class="backdrop-blur-sm bg-white/30 p-4 rounded-2xl border border-white/20 shadow-md hover:shadow-lg transition-shadow duration-300 flex items-center animate-fade-in [animation-delay:2s]">
+                        <span class="w-3 h-3 bg-primary rounded-full mr-3"></span>
+                        혁신적인 프로덕션
+                    </li>
+                    <li class="backdrop-blur-sm bg-white/30 p-4 rounded-2xl border border-white/20 shadow-md hover:shadow-lg transition-shadow duration-300 flex items-center animate-fade-in [animation-delay:2.2s]">
+                        <span class="w-3 h-3 bg-primary rounded-full mr-3"></span>
+                        글로벌 트렌드 선도
+                    </li>
+                </ul>
+            </section>
+
+            <section class="animate-fade-in [animation-delay:2.4s]">
+                <h2 class="text-2xl font-semibold text-gray-800 mb-6 border-b-2 border-gray-300 pb-2">
+                    최신 US Pop 소식
+                </h2>
+                <div class="grid gap-4">
+                    <div class="backdrop-blur-sm bg-white/30 p-4 rounded-2xl border border-white/20 shadow-md hover:shadow-lg transition-shadow duration-300">
+                        <h3 class="text-lg font-bold text-primary mb-2">Taylor Swift, 새 앨범 'The Tortured Poets Department' 발매</h3>
+                        <p class="text-gray-700">4월 19일 새 앨범 발매와 함께 월드 투어도 진행 중입니다.</p>
+                    </div>
+                    <div class="backdrop-blur-sm bg-white/30 p-4 rounded-2xl border border-white/20 shadow-md hover:shadow-lg transition-shadow duration-300">
+                        <h3 class="text-lg font-bold text-primary mb-2">Beyoncé, 'Cowboy Carter' 앨범으로 컨트리 장르 도전</h3>
+                        <p class="text-gray-700">3월 29일 발매된 새 앨범이 빌보드 200 차트 1위를 차지했습니다.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html> 

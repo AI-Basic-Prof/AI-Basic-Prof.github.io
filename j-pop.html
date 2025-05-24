@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J-Pop 소개</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .animate-fade-in {
+            animation: fadeIn 0.8s ease-out forwards;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-blue-100 to-purple-100 min-h-screen">
+    <header class="sticky top-0 z-50">
+        <nav class="bg-white/80 backdrop-blur-md shadow-lg">
+            <div class="container mx-auto px-4 py-4">
+                <div class="flex justify-between items-center">
+                    <div class="text-2xl font-bold text-primary">Pop Culture</div>
+                    <div class="hidden md:flex space-x-6">
+                        <a href="index.html" class="text-gray-700 hover:text-primary transition-colors duration-300 flex items-center">
+                            <img src="https://flagcdn.com/w20/kr.png" alt="K-pop" class="w-6 h-6 mr-2">
+                            K-Pop
+                        </a>
+                        <a href="us-pop.html" class="text-gray-700 hover:text-primary transition-colors duration-300 flex items-center">
+                            <img src="https://flagcdn.com/w20/us.png" alt="US Pop" class="w-6 h-6 mr-2">
+                            US Pop
+                        </a>
+                        <a href="uk-pop.html" class="text-gray-700 hover:text-primary transition-colors duration-300 flex items-center">
+                            <img src="https://flagcdn.com/w20/gb.png" alt="UK Pop" class="w-6 h-6 mr-2">
+                            UK Pop
+                        </a>
+                        <a href="j-pop.html" class="text-primary flex items-center">
+                            <img src="https://flagcdn.com/w20/jp.png" alt="J-Pop" class="w-6 h-6 mr-2">
+                            J-Pop
+                        </a>
+                        <a href="latin-pop.html" class="text-gray-700 hover:text-primary transition-colors duration-300 flex items-center">
+                            <img src="https://flagcdn.com/w20/es.png" alt="Latin Pop" class="w-6 h-6 mr-2">
+                            Latin Pop
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+        <div class="max-w-4xl mx-auto">
+            <div class="flex justify-center items-center mb-8 animate-fade-in [animation-delay:0.2s]">
+                <img src="https://flagcdn.com/w320/jp.png" 
+                     alt="일본 국기" 
+                     class="w-24 h-24 object-contain animate-pulse">
+            </div>
+            
+            <h1 class="text-4xl md:text-5xl font-bold text-center mb-8 text-primary animate-fade-in [animation-delay:0.4s]">
+                J-Pop 소개
+            </h1>
+
+            <div class="bg-white/80 backdrop-blur-md rounded-xl p-8 shadow-lg mb-8 animate-fade-in [animation-delay:0.6s]">
+                <h2 class="text-2xl font-bold mb-4 text-primary">J-Pop이란?</h2>
+                <p class="text-gray-700 leading-relaxed">
+                    J-Pop은 일본의 대중음악을 의미하며, 다양한 장르와 스타일을 포함합니다. 
+                    전통적인 일본 음악의 요소와 현대적인 팝, 록, 일렉트로닉 음악이 융합된 것이 특징입니다. 
+                    J-Pop은 일본 내에서 큰 인기를 끌고 있으며, 애니메이션과 게임 음악과의 연계성도 강합니다.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                <div class="bg-white/80 backdrop-blur-md rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 animate-fade-in [animation-delay:0.8s]">
+                    <h3 class="text-xl font-bold mb-3 text-primary">YOASOBI</h3>
+                    <p class="text-gray-700">
+                        소설을 음악으로 만드는 독특한 컨셉으로 인기를 얻은 듀오입니다.
+                    </p>
+                </div>
+                <div class="bg-white/80 backdrop-blur-md rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 animate-fade-in [animation-delay:1.0s]">
+                    <h3 class="text-xl font-bold mb-3 text-primary">LiSA</h3>
+                    <p class="text-gray-700">
+                        애니메이션 주제가로 유명한 가수로, 강렬한 보컬과 에너지 넘치는 퍼포먼스로 유명합니다.
+                    </p>
+                </div>
+                <div class="bg-white/80 backdrop-blur-md rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 animate-fade-in [animation-delay:1.2s]">
+                    <h3 class="text-xl font-bold mb-3 text-primary">Official髭男dism</h3>
+                    <p class="text-gray-700">
+                        팝과 록을 융합한 독특한 사운드로 인기를 얻은 밴드입니다.
+                    </p>
+                </div>
+            </div>
+
+            <div class="bg-white/80 backdrop-blur-md rounded-xl p-8 shadow-lg mb-8 animate-fade-in [animation-delay:1.4s]">
+                <h2 class="text-2xl font-bold mb-4 text-primary">J-Pop의 특징</h2>
+                <ul class="space-y-4">
+                    <li class="flex items-start">
+                        <span class="text-primary mr-2">•</span>
+                        <span class="text-gray-700">애니메이션과의 강한 연계성</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-primary mr-2">•</span>
+                        <span class="text-gray-700">다양한 장르의 융합</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-primary mr-2">•</span>
+                        <span class="text-gray-700">독특한 가사와 멜로디</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-primary mr-2">•</span>
+                        <span class="text-gray-700">강력한 아이돌 문화</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="bg-white/80 backdrop-blur-md rounded-xl p-8 shadow-lg animate-fade-in [animation-delay:1.6s]">
+                <h2 class="text-2xl font-bold mb-4 text-primary">최신 J-Pop 소식</h2>
+                <div class="space-y-4">
+                    <div class="border-b border-gray-200 pb-4">
+                        <h3 class="text-lg font-semibold text-primary">YOASOBI, 새 앨범 발매</h3>
+                        <p class="text-gray-700">YOASOBI가 새 앨범 'The Book 3'을 발매하며 새로운 소설 기반의 곡들을 선보였습니다.</p>
+                    </div>
+                    <div class="border-b border-gray-200 pb-4">
+                        <h3 class="text-lg font-semibold text-primary">LiSA, 월드 투어 시작</h3>
+                        <p class="text-gray-700">LiSA가 아시아와 유럽을 포함한 월드 투어를 시작했습니다.</p>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-primary">Official髭男dism, 새 싱글 발매</h3>
+                        <p class="text-gray-700">Official髭男dism이 새 싱글 'Subtitle'을 발매하며 일본 차트 1위를 차지했습니다.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html> 

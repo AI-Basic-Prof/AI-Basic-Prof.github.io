@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UK Pop 소개</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .animate-fade-in {
+            animation: fadeIn 0.8s ease-out forwards;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-blue-100 to-purple-100 min-h-screen">
+    <header class="sticky top-0 z-50">
+        <nav class="bg-white/80 backdrop-blur-md shadow-lg">
+            <div class="container mx-auto px-4 py-4">
+                <div class="flex justify-between items-center">
+                    <div class="text-2xl font-bold text-primary">Pop Culture</div>
+                    <div class="hidden md:flex space-x-6">
+                        <a href="index.html" class="text-gray-700 hover:text-primary transition-colors duration-300 flex items-center">
+                            <img src="https://flagcdn.com/w20/kr.png" alt="K-pop" class="w-6 h-6 mr-2">
+                            K-Pop
+                        </a>
+                        <a href="us-pop.html" class="text-gray-700 hover:text-primary transition-colors duration-300 flex items-center">
+                            <img src="https://flagcdn.com/w20/us.png" alt="US Pop" class="w-6 h-6 mr-2">
+                            US Pop
+                        </a>
+                        <a href="uk-pop.html" class="text-primary flex items-center">
+                            <img src="https://flagcdn.com/w20/gb.png" alt="UK Pop" class="w-6 h-6 mr-2">
+                            UK Pop
+                        </a>
+                        <a href="j-pop.html" class="text-gray-700 hover:text-primary transition-colors duration-300 flex items-center">
+                            <img src="https://flagcdn.com/w20/jp.png" alt="J-Pop" class="w-6 h-6 mr-2">
+                            J-Pop
+                        </a>
+                        <a href="latin-pop.html" class="text-gray-700 hover:text-primary transition-colors duration-300 flex items-center">
+                            <img src="https://flagcdn.com/w20/es.png" alt="Latin Pop" class="w-6 h-6 mr-2">
+                            Latin Pop
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+        <div class="max-w-4xl mx-auto">
+            <div class="flex justify-center items-center mb-8 animate-fade-in [animation-delay:0.2s]">
+                <img src="https://flagcdn.com/w320/gb.png" 
+                     alt="영국 국기" 
+                     class="w-24 h-24 object-contain animate-pulse">
+            </div>
+            
+            <h1 class="text-4xl md:text-5xl font-bold text-center mb-8 text-primary animate-fade-in [animation-delay:0.4s]">
+                UK Pop 소개
+            </h1>
+
+            <div class="bg-white/80 backdrop-blur-md rounded-xl p-8 shadow-lg mb-8 animate-fade-in [animation-delay:0.6s]">
+                <h2 class="text-2xl font-bold mb-4 text-primary">UK Pop이란?</h2>
+                <p class="text-gray-700 leading-relaxed">
+                    UK Pop은 영국에서 시작된 대중음악의 한 형태로, 다양한 장르와 스타일을 포함합니다. 
+                    전통적인 록, 팝, 일렉트로닉 음악에서부터 현대적인 힙합과 R&B까지 다양한 음악적 요소를 
+                    융합한 것이 특징입니다. UK Pop은 전 세계적으로 큰 영향력을 미치며, 
+                    많은 영국 아티스트들이 글로벌 차트에서 성공을 거두고 있습니다.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                <div class="bg-white/80 backdrop-blur-md rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 animate-fade-in [animation-delay:0.8s]">
+                    <h3 class="text-xl font-bold mb-3 text-primary">Adele</h3>
+                    <p class="text-gray-700">
+                        영국의 대표적인 싱어송라이터로, 강력한 보컬과 감성적인 가사로 전 세계적인 인기를 얻고 있습니다.
+                    </p>
+                </div>
+                <div class="bg-white/80 backdrop-blur-md rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 animate-fade-in [animation-delay:1.0s]">
+                    <h3 class="text-xl font-bold mb-3 text-primary">Ed Sheeran</h3>
+                    <p class="text-gray-700">
+                        포크와 팝을 융합한 독특한 스타일로 성공을 거둔 싱어송라이터입니다.
+                    </p>
+                </div>
+                <div class="bg-white/80 backdrop-blur-md rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 animate-fade-in [animation-delay:1.2s]">
+                    <h3 class="text-xl font-bold mb-3 text-primary">Dua Lipa</h3>
+                    <p class="text-gray-700">
+                        현대적인 팝과 댄스 음악을 결합한 신세대 영국 팝스타입니다.
+                    </p>
+                </div>
+            </div>
+
+            <div class="bg-white/80 backdrop-blur-md rounded-xl p-8 shadow-lg mb-8 animate-fade-in [animation-delay:1.4s]">
+                <h2 class="text-2xl font-bold mb-4 text-primary">UK Pop의 특징</h2>
+                <ul class="space-y-4">
+                    <li class="flex items-start">
+                        <span class="text-primary mr-2">•</span>
+                        <span class="text-gray-700">다양한 음악적 영향력의 융합</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-primary mr-2">•</span>
+                        <span class="text-gray-700">강력한 보컬과 감성적인 가사</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-primary mr-2">•</span>
+                        <span class="text-gray-700">실험적인 사운드와 혁신적인 프로덕션</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-primary mr-2">•</span>
+                        <span class="text-gray-700">글로벌 차트에서의 지속적인 성공</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="bg-white/80 backdrop-blur-md rounded-xl p-8 shadow-lg animate-fade-in [animation-delay:1.6s]">
+                <h2 class="text-2xl font-bold mb-4 text-primary">최신 UK Pop 소식</h2>
+                <div class="space-y-4">
+                    <div class="border-b border-gray-200 pb-4">
+                        <h3 class="text-lg font-semibold text-primary">Adele, 새 앨범 발매 예정</h3>
+                        <p class="text-gray-700">Adele이 3년 만에 새 앨범을 발매할 예정이라고 발표했습니다.</p>
+                    </div>
+                    <div class="border-b border-gray-200 pb-4">
+                        <h3 class="text-lg font-semibold text-primary">Ed Sheeran, 월드 투어 시작</h3>
+                        <p class="text-gray-700">Ed Sheeran이 새로운 월드 투어를 시작하며 전 세계 팬들을 만날 예정입니다.</p>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-primary">Dua Lipa, 그래미 수상</h3>
+                        <p class="text-gray-700">Dua Lipa가 최근 그래미 어워드에서 최우수 팝 보컬 앨범상을 수상했습니다.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html> 
